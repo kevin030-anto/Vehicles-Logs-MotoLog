@@ -27,6 +27,10 @@ A Flutter app to manage vehicles and track maintenance/service logs, costs, and 
 ## Sample Screenshot
 ![Screenshot](https://github.com/kevin030-anto/To-Do-List/b0List.jpg)
 
+## **Note:**
+
+**The project has not been added to the repository yet (coming soon...).**
+
 ## Getting Started
 
 ### Prerequisites
