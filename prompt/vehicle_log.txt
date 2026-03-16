@@ -1,0 +1,112 @@
+build a flutter app for storing a details about vehicle and there service log in which kilometer (like a log when did vehicle service done kilometer, date, cost and notes, when did vehicle engine oil change in which kilometer, date, cost and notes, when did vehicle tire change in which kilometer, date, cost and notes,
+
+this app page need to look like
+page 1: Home Page
+at the top name of the app "vehicle Log"
+showing detail of each vehicle by the icon, vehicle name, licence number (like "TN99 AD1234") and kilometer range (Like "23456.9")
+and also show the option to add new vehicle
+in the bottom show the icon of home page, vehicle chart page and setting page to switch between home page and setting page
+
+page 2: vehicle detail Page
+when "add new vehicle" option is press in home page then go to vehicle detail page
+In this page adding detail about vehicle this are the method to store the vehicle detail
+1. choose icon for the vehicle (like car, bike, scooty)
+2. Add a name for vehicle (like "Hero 1600")
+3. add vehicle licence number (like "TN99 AD1234")
+4. add three tag for petrol, diesel and EV to select any one
+5. if they press petrol tag or diesel tag show vehicle fuel tank capacity in option to add in liter (like "30")
+6. if they press petrol tag or diesel tag show how much mileage can run in 1 Liter petrol or diesel by kilometer (like "23 KM/L")
+7. if they press EV tag show how much kilometer can run in single charge (like "250 KM")
+8. add vehicle kilometer range (Like "23456.9") (this is main kilometer range this should be update an new log is added to this vehicle)
+9. add date function for when did the vehicle is brought (optional for user to add)
+10. add vehicle insurance number (like "AOX-111-111111-1111") (optional for user to add)
+11. Other notes for extra details (optional for user to add)
+
+add save button to save the details
+
+page 3: vehicle Log Page
+after storing the vehicle details in Home page show the stored vehicle when i press the vehicle show the vehicle details like name, licence number, kilometer range, other details about this vehicle and show how much cost i spend for services (this spending money is main when new log is add update the spending) after that show two option to view first: "Log Page" history of vehicle services, oil changes, tire changes, etc.. that the bottom give the option "add log" (for adding vehicle services, oil changes, tire changes, etc..) and second: "maintenance checklist page" maintenance checklist for services, maintenance or changes for vehicle to create, view and edit
+
+Note:
+show the edit option and delete option in vehicle detail and vehicle Log for future changes
+in maintenance checklist show the edit option and delete option
+
+page 4: Add Log Page
+when selecting the vehicle by showing "Log Page"
+view "add log" is press from "Vehicle Log page" go to Add Log page
+in the top show "Select the Category" and the show the selecting option with icon
+1. show services icon with name tag "Services"
+2. if the selected vehicle is petrol tag or diesel tag give this option show Oil icon with name tag "Oil change"
+3. show Tire icon with name tag "Tire change"
+4. if the selected vehicle is EV tag give this option show Battery icon with name tag "Battery Services"
+5. show other icon with name tag "Other changes and services"
+
+
+when "Services" tag is selected
+1. date option to add when did Services done
+2. add current kilometer range (Like "23567.9") (this kilometer range should be update to main kilometer range)
+3. add name of services shop (like "ABC services")
+4. add cost of services (like 1000.00) (this should be update in spending)
+5. in services tag add addition tag of other changes and services (like: tire, Oil, break, Light, battery, etc... and give the option to add the tag) to make multiple selecting tag to add (this for to add what services is old by selecting tag) 
+6. add note for (to write what services is done)
+
+add save button to save the Log
+
+when "Oil change" tag is selected
+1. date option to add when did Services done
+2. add current kilometer range (Like "23567.9") (this kilometer range should be update to main kilometer range)
+3. add name of services shop (like "ABC services")
+4. add cost of services (like 1000.00) (this should be update in spending)
+5. add next kilometer range to enter kilometer number for "Next Oil change"
+6. add note for (to write what services is done)
+
+add save button to save the Log
+
+when "Tire change" tag is selected
+1. date option to add when did Services done
+2. add current kilometer range (Like "23567.9") (this kilometer range should be update to main kilometer range)
+3. add name of services shop (like "ABC services")
+4. add cost of services (like 1000.00) (this should be update in spending)
+5. add note for (to write what services is done)
+
+add save button to save the Log
+
+when "Other" tag is selected
+1. when the "Other" tag is selected give the option to add a name (like "changes")
+2. date option to add when did Services done
+3. add current kilometer range (Like "23567.9") (this kilometer range should be update to main kilometer range)
+4. add name of services shop (like "ABC services")
+5. add cost of services (like 1000.00) (this should be update in spending)
+5. add note for (to write what services is done)
+
+add save button to save the Log
+
+when "Battery Services" tag is selected
+1. date option to add when did Services done
+2. add current kilometer range (Like "23567.9") (this kilometer range should be update to main kilometer range)
+3. add name of services shop (like "ABC services")
+4. add cost of services (like 1000.00) (this should be update in spending)
+5. add note for (to write what services is done)
+
+add save button to save the Log
+
+page 5: maintenance checklist page
+when selecting the vehicle by showing "maintenance checklist page"
+view the checklist for add services, maintenance or changes to vehicle and "Add checklist" option to add new checklist
+if the new checklist store the date of add checklist and finish date
+
+add save button to save the maintenance checklist
+
+page 6: vehicle chart page
+in this page show the stored vehicle details when selecting the vehicle open the chart of spend for this vehicle and number of services, number of tire changes and other changes
+this should be in "pie chart"
+
+page 7: Setting Page
+in this page show this:
+"Theme"
+light theme, dark theme and system default theme
+"About"
+About means show the detail about the app and app version.
+
+also add mobile phone home screen widgets for android
+create a widgets to easy to access the vehicle detail and add log and maintenance checklist by selecting the stored vehicle
